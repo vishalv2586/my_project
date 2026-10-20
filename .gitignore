@@ -1,0 +1,21 @@
+# Java build output
+*.class
+target/
+out/
+/jdbc/exp3/bin/
+/strjdbc/bin/
+
+# IDE metadata
+.idea/
+*.iml
+
+# Apache Tomcat runtime data
+/apache-tomcat-9.0.121/logs/
+/apache-tomcat-9.0.121/temp/
+/apache-tomcat-9.0.121/work/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
